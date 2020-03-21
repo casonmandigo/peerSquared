@@ -185,6 +185,7 @@ footer {
 
 .footer-nav h3 {
     line-height: 0.9em;
+    text-decoration: underline;
 }
 
 .copyright {
