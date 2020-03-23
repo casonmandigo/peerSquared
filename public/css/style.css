@@ -545,8 +545,8 @@ input[type="radio"] {
         margin-bottom: 10px;
     }
     .numbered-button {
-        background-color:#2699FB;
-        color: white;
+        background-color:##F5F8FA;
+        color: #2699FB;
         font-size: 24px;
         border-radius: 50%;
         border: none;
