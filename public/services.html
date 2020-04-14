@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Services - PeerSquared</title>
+    
+    <!-- META DESCRIPTION -->
+    <meta property="og:site_name" content="PeerSquared"/>
+    <meta property="og:title" content="Services - PeerSquared "/>
+    <meta property="og:description" content="Building Free &amp; Sustainable Peer Tutoring Programs for High Schools"/>
+    <meta property="og:url" content="https://peer-squared.info/services"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://peer-squared.info/img/meta_image.jpg"/>
+    <meta property="og:image:alt" content="PeerSquared Logo"/>
 
     <!-- META DESCRIPTION -->
     <meta name="description" content="">
@@ -64,12 +73,21 @@
 </head>
 <body>
     <header style="background: #2699FB;">
+
+        <!-- Alert Banner Online Tutoring -->
+        <div class="alert alert-info alert-dismissible" role="alert">
+            <button aria-label="Close" class="close" data-dismiss="alert" type="button"><span aria-hidden="true">×</span></button>
+            <p><strong>We are launching online peer tutoring. To learn more, click</strong><a href="/online-tutoring.html" target="_blank"><strong> here</strong></a>.</p>
+        </div>
+
         <nav class="container">
             <a href="/index.html" title="PeerSquared"><img class="logo" src="img/TitleLogoWhite.png" alt="PeerSquared Logo"></a>
 
             <ul id="nav-menu-active" class="nav-links web-only inactive">
                 <li class="nav-link">
                     <a href="/index.html" title="Home">Home</a></li>
+                <li class="nav-link">
+                    <a href="/online-tutoring.html" title="Online Tutoring">Online Tutoring</a></li>
                 <li class="nav-link">
                     <a href="/services.html" title="Services">Services</a></li>
                 <li class="nav-link">
@@ -111,6 +129,9 @@
         <ul>
             <li class="nav-link-mobile">
                 <a href="/index.html" onClick="closeMobileNav()" title="Home">Home</a>
+            </li>
+            <li class="nav-link-mobile">
+                <a href="/online-tutoring.html" onClick="closeMobileNav()" title="Online Tutoring">Online Tutoring</a>
             </li>
             <li class="nav-link-mobile">
                 <a href="/services.html" onClick="closeMobileNav()" title="Services">Services</a>
@@ -367,10 +388,14 @@
 
         </div>
 
-        <p class="copyright"><a href="https://drive.google.com/file/d/1ABUOihRl5cQDcCMptCwRU738KzLuP5q2/view"
-                target="_blank" title="Privacy Policy">Privacy Policy</a> | ©Peersquared, Inc. 2020 | <a
-                href="https://drive.google.com/file/d/1nvFBxkqQGktxsk-sGdPFLHUmpcwW8nE_/view" target="_blank" title="Terms of Use">Terms of
-                Use</a> </p>
+        <p class="copyright">
+            <a href="legal.html#tos" target="_self">Terms of Service</a>| &#169;Peersquared, Inc. 2020 | <a href="legal.html#pp" target="_self" title="Privacy Policy">Privacy Policy</a>  
+        </p>
     </footer>
+
+    <!-- JS needed for alert banner -->
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
 </body>
 </html>
