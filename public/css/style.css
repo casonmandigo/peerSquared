@@ -192,10 +192,11 @@ nav {
     justify-content:flex-end;
     align-items: center;
     color: white;
+    text-align: center;
 }
 
 .nav-link {
-    padding: 1.3rem 1rem;
+    padding: 1.3rem 0.7rem;
     font-size: 1.1rem;
 }
 
