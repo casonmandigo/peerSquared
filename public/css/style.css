@@ -506,6 +506,8 @@ div.legal-iframes iframe{
         padding: 0 10px;
         height: 30px;
         width: 33.35px;
+        margin-top: 1em;
+        margin-left: 1.6em;
     }
     #tutoring-model img {
         width: 150px;
@@ -513,6 +515,7 @@ div.legal-iframes iframe{
     }
     .tutoring-model-grouped {
         display: grid;
+        color: black;
     }
     .model-number {
         display: grid;
@@ -748,6 +751,8 @@ div.legal-iframes iframe{
         padding: 0 10px;
         height: 30px;
         width: 33.35px;
+        margin-top: 0;
+        margin-left: 0;
     }
     #tutoring-model img {
         width: 150px;
