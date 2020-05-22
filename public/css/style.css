@@ -58,7 +58,7 @@ header {
     position: relative;
     top: -2px;
     right: -21px;
-    color: inherit;
+    color: black;
 }
 button.close {
     -webkit-appearance: none;
