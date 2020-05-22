@@ -26,55 +26,6 @@
     <link rel="icon" href="../favicons/favicon96_b_on_w.png" sizes="96x96">
     <link rel="icon" href="../favicons/favicon228_b_on_w.png" sizes="228x228">
 
-    <script src="../imports/jquery-3.4.1.min.js"></script>
-    
-    <script>
-        function closeMobileNav() {
-            $('#nav-menu-active-mobile').removeClass("active-flex");
-            $('#nav-menu-active-mobile').addClass("inactive");
-            $('#nav-menu-inactive-mobile').removeClass("inactive");
-            $('#nav-menu-inactive-mobile').addClass("active-flex");
-
-            $('#mobile-dropdown-menu').removeClass("active-block");
-            //$('#mobile-dropdown-menu').addClass("inactive");
-        };
-
-        $(document).ready(function () {
-            //Web Nav
-            $('#hamburger').click(function () {
-                $('#nav-menu-active').removeClass("inactive");
-                $('#nav-menu-active').addClass("active-flex");
-                $('#nav-menu-inactive').removeClass("active-flex");
-                $('#nav-menu-inactive').addClass("inactive");
-            });
-            $('#close').click(function () {
-                $('#nav-menu-active').removeClass("active-flex");
-                $('#nav-menu-active').addClass("inactive");
-                $('#nav-menu-inactive').removeClass("inactive"); 6
-                $('#nav-menu-inactive').addClass("active-flex");
-            })
-
-            //Mobile Nav
-            $('#hamburger-mobile').click(function () {
-                $('#nav-menu-active-mobile').removeClass("inactive");
-                $('#nav-menu-active-mobile').addClass("active-flex");
-                $('#nav-menu-inactive-mobile').removeClass("active-flex");
-                $('#nav-menu-inactive-mobile').addClass("inactive");
-
-                // $('#mobile-dropdown-menu').removeClass("inactive");
-                $('#mobile-dropdown-menu').addClass("active-block");
-            });
-            $('#close-mobile').click(function () {
-                closeMobileNav();
-            })
-        });
-    </script>
-
-    <!-- Social share buttons -->
-    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5ebc541e1fa87300122c98da&product=inline-share-buttons' async='async'></script>
-    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5ebc541e1fa87300122c98da&product=sticky-share-buttons&cms=website' async='async'></script>
-
-
     <style type="text/css">
         .header-bg-blog {
             height: 100vh;
@@ -130,9 +81,71 @@
             }
         }
     </style>
+
+    <script src="../imports/jquery-3.4.1.min.js"></script>
+    
+    <script>
+        function closeMobileNav() {
+            $('#nav-menu-active-mobile').removeClass("active-flex");
+            $('#nav-menu-active-mobile').addClass("inactive");
+            $('#nav-menu-inactive-mobile').removeClass("inactive");
+            $('#nav-menu-inactive-mobile').addClass("active-flex");
+
+            $('#mobile-dropdown-menu').removeClass("active-block");
+            //$('#mobile-dropdown-menu').addClass("inactive");
+        };
+
+        $(document).ready(function () {
+            //Web Nav
+            $('#hamburger').click(function () {
+                $('#nav-menu-active').removeClass("inactive");
+                $('#nav-menu-active').addClass("active-flex");
+                $('#nav-menu-inactive').removeClass("active-flex");
+                $('#nav-menu-inactive').addClass("inactive");
+            });
+            $('#close').click(function () {
+                $('#nav-menu-active').removeClass("active-flex");
+                $('#nav-menu-active').addClass("inactive");
+                $('#nav-menu-inactive').removeClass("inactive"); 6
+                $('#nav-menu-inactive').addClass("active-flex");
+            })
+
+            //Mobile Nav
+            $('#hamburger-mobile').click(function () {
+                $('#nav-menu-active-mobile').removeClass("inactive");
+                $('#nav-menu-active-mobile').addClass("active-flex");
+                $('#nav-menu-inactive-mobile').removeClass("active-flex");
+                $('#nav-menu-inactive-mobile').addClass("inactive");
+
+                // $('#mobile-dropdown-menu').removeClass("inactive");
+                $('#mobile-dropdown-menu').addClass("active-block");
+            });
+            $('#close-mobile').click(function () {
+                closeMobileNav();
+            })
+        });
+    </script>
+
+    <!-- Social share buttons -->
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5ebc541e1fa87300122c98da&product=inline-share-buttons' async='async'></script>
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5ebc541e1fa87300122c98da&product=sticky-share-buttons&cms=website' async='async'></script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WZRXF8V');</script>
+    <!-- End Google Tag Manager -->
+    
 </head>
 <body>
- <header>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZRXF8V"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <header>
         <div class="header-bg-blog">
         </div>
         <div class="header-text-blog">
