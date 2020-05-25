@@ -624,7 +624,7 @@ div.legal-iframes iframe{
     .blog-card-text h3 {
         font-size: x-large;
         text-align: center;
-        margin-top: auto;
+        margin: 1em;
         text-decoration: underline;
     }
     .blog-card-text h4 {
@@ -951,16 +951,15 @@ div.legal-iframes iframe{
     }
     .blog-card-text h3 {
         text-align: center;
-        margin-top: auto;
         text-decoration: underline;
     }
     .blog-card-text h4 {
         text-align: center;
-        margin-top: 10px;
+        margin-top: auto;
     }
     .blog-card-text p {
         text-align: justify;
-        margin: 25px 50px;
+        margin: auto 50px;
     }
     .blog-round-button-yellow {
         border: none;
@@ -975,7 +974,7 @@ div.legal-iframes iframe{
         background-color: #F8BE13;
         color: white;
         width: 30%; 
-        margin: 0 auto auto;
+        margin: 0 auto 2em auto;
     }
     #about-us-img-web {
         width: 400px;
