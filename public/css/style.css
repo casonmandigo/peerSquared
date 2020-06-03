@@ -383,6 +383,7 @@ footer {
 
 .benefits-text {
     display: none;
+    padding-left: 2em;
 }
 
 .about-us-top-mobile {
@@ -660,6 +661,21 @@ div.legal-iframes iframe{
     }
   }
 
+@media (max-width: 768px) {
+    .header-bg {
+        height: 100vh;
+    }
+    .header-text {
+        font-size: larger;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-text {
+        font-size: medium;
+    }
+}
+
 @media (min-width: 768px) {
 
     .mobile-only {
@@ -683,11 +699,11 @@ div.legal-iframes iframe{
         width: 70%;
         margin-top: 15px;
     }
-
+/*
     .header-bg {
-        height: 80vh;
+        height: 70vh;
     }
-
+*/
     .header-text {
         width: 100%;
         align-items: center;

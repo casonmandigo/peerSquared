@@ -29,7 +29,7 @@
     <link rel="icon" href="favicons/favicon32_b_on_w.png" sizes="32x32">
     <link rel="icon" href="favicons/favicon96_b_on_w.png" sizes="96x96">
     <link rel="icon" href="favicons/favicon228_b_on_w.png" sizes="228x228">
-    <script src="imports/jquery-3.4.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script>
         function closeMobileNav() {
@@ -41,6 +41,15 @@
             $('#mobile-dropdown-menu').removeClass("active-block");
             //$('#mobile-dropdown-menu').addClass("inactive");
         };
+
+        function slowscroll() {
+            $("html, body").animate({scrollTop: $("#p2-model").offset().top}, 'slow')}
+          
+
+    //    $("#scroll-button").click(function() {
+    //        $('html,body').animate({
+    //        scrollTop: $("#p2-model").offset().top}, 'slow');
+    //    });
 
         $(document).ready(function () {
             //Web Nav
@@ -114,11 +123,10 @@
                     <br>
                     <br>
                     <br>
-                    <h1>Offering online peer tutoring as a FREE resource during school closures!</h1>
-                    <h2>Coming to AZ Summer 2020</h2>
+                    <h1 style="text-align: center;">PEER TUTORING: </h1>
+                    <h1 style="text-align: center;">Experience the benefits of students helping students</h1>
                     <br>
-                    <br>
-                    <button type="button" class="round-button-yellow" onClick="window.location.href = '/peersquared-provides.html';">Learn More</button>
+                    <button type="button" class="round-button-yellow" id="scroll-button" style="margin-left: auto; margin-right: auto; display: flex;" onclick="slowscroll()">Learn More</button>
                 </div>
             </div>
         </div>
@@ -199,64 +207,6 @@
         </div>
     </header>
 
-    <section id="p2-model" class="section-off-white">
-        <div class="container">
-            <h2>PeerSquared Model</h2>
-            <p>We are creating a sustainable and systematic peer tutoring model for schools, so one-on-one, in-person,
-                peer tutoring can be provided by trained high school tutors as a free after school resource for all
-                students. Together with technology, PeerSquared simplifies the experience for students while generating
-                actionable insights for stakeholders.</p>
-
-            <div id="model-content">
-                <div class="model-content-item">
-                    <div class="img-container">
-                        <img src="img/sustainable.png" alt="Sustainability">
-                    </div>
-                    <div class="model-content-item-description">
-                        <h3>Sustainable</h3>
-                        <h4>Students become Tutors</h4>
-                        <p>Focusing on, but not only about knowledge acquisition, but our trained tutors also encourage
-                            students to become more engaged participants in their school community
-                        </p>
-                    </div>
-                </div>
-                <div class="model-content-item">
-                    <div class="img-container">
-                        <img src="img/systematic.png" alt="Systematic">
-                    </div>
-                    <div class="model-content-item-description">
-                        <h3>Systematic</h3>
-                        <h4>An Activated Network</h4>
-                        <p>Bringing together the school and community to support student learning
-                        </p>
-                    </div>
-                </div>
-                <div class="model-content-item">
-                    <div class="img-container">
-                        <img src="img/trainedtutors.png" alt="Trained Tutors">
-                    </div>
-                    <div class="model-content-item-description">
-                        <h3>Trained Tutors</h3>
-                        <h4>Compassionate & Patient</h4>
-                        <p>Preparing compassionate and patient tutors to facilitate inquiry-based learning, keeping
-                            their students' best interest in mind</p>
-                    </div>
-                </div>
-                <div class="model-content-item">
-                    <div class="img-container">
-                        <img src="img/learninginsights.png" alt="Actionable Insights">
-                    </div>
-                    <div class="model-content-item-description">
-                        <h3>Learning Insights</h3>
-                        <h4>Data You Can Act On</h4>
-                        <p>Gathering and visualizing meaningful analytics for different stakeholders (tutors, school
-                            faculty, and parents)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="section-blue">
         <div class="container">
             <h2>Benefits</h2>
@@ -320,6 +270,66 @@
             </div>
         </div>
     </section>
+
+    <section id="p2-model" class="section-off-white">
+        <div class="container">
+            <h2>PeerSquared Model</h2>
+            <p>We are creating a sustainable and systematic peer tutoring model for schools, so one-on-one, in-person,
+                peer tutoring can be provided by trained high school tutors as a free after school resource for all
+                students. Together with technology, PeerSquared simplifies the experience for students while generating
+                actionable insights for stakeholders.</p>
+
+            <div id="model-content">
+                <div class="model-content-item">
+                    <div class="img-container">
+                        <img src="img/sustainable.png" alt="Sustainability">
+                    </div>
+                    <div class="model-content-item-description">
+                        <h3>Sustainable</h3>
+                        <h4>Students become Tutors</h4>
+                        <p>Focusing on, but not only about knowledge acquisition, but our trained tutors also encourage
+                            students to become more engaged participants in their school community
+                        </p>
+                    </div>
+                </div>
+                <div class="model-content-item">
+                    <div class="img-container">
+                        <img src="img/systematic.png" alt="Systematic">
+                    </div>
+                    <div class="model-content-item-description">
+                        <h3>Systematic</h3>
+                        <h4>An Activated Network</h4>
+                        <p>Bringing together the school and community to support student learning
+                        </p>
+                    </div>
+                </div>
+                <div class="model-content-item">
+                    <div class="img-container">
+                        <img src="img/trainedtutors.png" alt="Trained Tutors">
+                    </div>
+                    <div class="model-content-item-description">
+                        <h3>Trained Tutors</h3>
+                        <h4>Compassionate & Patient</h4>
+                        <p>Preparing compassionate and patient tutors to facilitate inquiry-based learning, keeping
+                            their students' best interest in mind</p>
+                    </div>
+                </div>
+                <div class="model-content-item">
+                    <div class="img-container">
+                        <img src="img/learninginsights.png" alt="Actionable Insights">
+                    </div>
+                    <div class="model-content-item-description">
+                        <h3>Learning Insights</h3>
+                        <h4>Data You Can Act On</h4>
+                        <p>Gathering and visualizing meaningful analytics for different stakeholders (tutors, school
+                            faculty, and parents)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
     <footer id="footer">
         <div class="container footer-content">
             <div>
