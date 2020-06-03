@@ -157,7 +157,7 @@ button.close {
 }
 
 .header-text .container {
-    margin-bottom: 15px;
+    margin-bottom: 4em;
 }
 
 .nav-top {
@@ -673,6 +673,7 @@ div.legal-iframes iframe{
 @media (max-width: 480px) {
     .header-text {
         font-size: medium;
+        margin-bottom: 2em;
     }
 }
 
